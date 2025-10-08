@@ -1,0 +1,165 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html ,body{
+    height: 100%;
+    width: 100%;
+    
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: wheat;
+    
+    
+}
+#header{
+    height: 15%;
+    width: 100%;
+    background-color:white;
+}
+#headertop{
+    height: 50%;
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+  justify-content: space-around;
+}
+#search{
+    height: 95%;
+    width: 60%;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    border: 0.5px  solid black;
+    border-radius: 30%;
+    align-items: center;
+    justify-content: center;
+}
+#second{
+    display: flex;
+}
+#headerbottom{
+    height: 50%;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+h4:hover{
+    color: aqua;
+}
+#middle{
+    height: 70%;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    
+}
+#sidebar{
+    width: 10%;
+    height: 100%;
+    background-color: yellow;
+
+}
+#home{
+    height: 10%;
+    width: 100%;
+}
+#photos{
+    height: 10%;
+    width: 100%;
+}
+#illustrations{
+    height: 10%;
+    width: 100%;
+}
+
+#options{
+    height: 15%;
+    width: 100%;
+    background-color: red;
+    
+}
+#collections{
+    height: 15%;
+    width: 100%
+}
+#download{
+    height: 10%;
+    width: 100%
+}
+#login{
+    height: 10%;
+    width: 100%;
+}
+#language{
+    height: 10%;
+    width: 100%;
+}
+#menu{
+    height: 10%;
+    width: 100%;
+}
+i:hover{
+    color: blue;
+}
+#footer{
+    height: 15%;
+    display: flex;
+    background-color: green;
+}
+#a{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    
+}
+.icons{
+    display: flex;
+}
+#b{
+    height: 100%;
+    width: 35%;
+    background-color: blueviolet;
+}
+#photos{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+}
+#c{
+    height: 100%;
+    width: 35%;
+    background-color: aqua;
+}
+#illustrations{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+}
+.row{
+    display: flex;
+    flex: 1;
+    height: 70%;
+    width: 90%;
+}
+.row img{
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+h2:hover{
+    color: blue;
+}
+a{
+    text-align: center;
+}
